@@ -1,29 +1,112 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
+	<!-- Required meta tags -->
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/uikit.min.css"/>
-    <link rel="stylesheet" href="css/style.css">
-    <title>UI Kit Fun</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>Hello, world!</title>
 </head>
 
 <body>
-	
-	<!-- NAV BAR https://www.swiss.com/worldofswiss/en/ -->
-	<nav class="uk-navbar-container" uk-navbar>
-	    <div class="uk-navbar-left">
-	        <ul class="uk-navbar-nav">
-	            <li class="uk-active"><a href="">Logo</a></li>
-	            <li class="uk-parent"><a href="">Book</a></li>
-	            <li><a href="">Prepare</a></li>
-	            <li><a href="">Fly</a></li>
-	        </ul>
-	    </div>
-	</nav>
-	
-	<!-- ======== SCRIPTS ======== -->
-	<script src="js/uikit.min.js"></script>
-	<script src="js/uikit-icons.min.js"></script>	
+
+	<!-- Grid -->
+	<div class="container">
+
+		<!-- NAV -->
+		<div class="row">
+			<div class="col-sm noPadding">
+				<ul class="nav justify-content-end">
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Active</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#">Disabled</a>
+					</li>
+					<li class="nav-item">	
+						<form class="form-inline my-2 my-lg-0">
+							<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+						</form>
+					</li>
+				</ul>
+
+
+			</div>
+		</div>
+		
+		<!-- TITLE and BUTTONS -->
+		<div class="row">
+			<div class="col-sm">
+				One of three columns
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum ducimus esse eius hic illum? Illo earum fugiat eum, dolorem dolorum porro, repudiandae quisquam numquam et, voluptatum iusto id molestias nulla.
+			</div>
+			<div class="col-sm">
+				One of three columns
+			</div>
+		</div>
+
+		<!-- PICTURE CONTENT -->
+		<div class="row">
+			<div class="col-sm">
+				One of three columns
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum ducimus esse eius hic illum? Illo earum fugiat eum, dolorem dolorum porro, repudiandae quisquam numquam et, voluptatum iusto id molestias nulla.
+			</div>
+			<div class="col-sm">
+				One of three columns
+			</div>
+		</div>
+
+		<!-- CARD PICTURE CONTENT -->
+		<div class="row">
+			<div class="col-sm">
+				One of three columns
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum ducimus esse eius hic illum? Illo earum fugiat eum, dolorem dolorum porro, repudiandae quisquam numquam et, voluptatum iusto id molestias nulla.
+			</div>
+			<div class="col-sm">
+				One of three columns
+			</div>
+		</div>
+
+		<!-- SLIDE SHOW -->
+		<div class="row">
+			<div class="col-sm">
+				One of three columns
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum ducimus esse eius hic illum? Illo earum fugiat eum, dolorem dolorum porro, repudiandae quisquam numquam et, voluptatum iusto id molestias nulla.
+			</div>
+			<div class="col-sm">
+				One of three columns
+			</div>
+		</div>
+
+		<!-- FOOTER -->
+		<div class="row">
+			<div class="col-sm">
+				One of three columns
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum ducimus esse eius hic illum? Illo earum fugiat eum, dolorem dolorum porro, repudiandae quisquam numquam et, voluptatum iusto id molestias nulla.
+			</div>
+			<div class="col-sm">
+				One of three columns
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
 </body>
 </html>
